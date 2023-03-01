@@ -1,0 +1,14 @@
+{
+  "bookingid": "#number",
+  "booking": {
+    "firstname": "#(firstname)",
+    "lastname": "#(lastname)",
+    "totalprice": "#number",
+    "depositpaid": "#boolean",
+    "bookingdates": {
+      "checkin": "#string",
+      "checkout": "#string"
+    },
+    "additionalneeds": "#(additionalneeds)"
+  }
+}
